@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+    background-color:#0a6280
+    }
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.logo {
+    cursor:pointer;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9
+}
+button:hover {
+    background-color: rgba(5, 38, 46, 0.8);
+}
+
+.Mongolia {
+    margin-left: 30px;
+    padding: 0;
+    justify-content: center;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h1, h2 {
+    color: #03212b;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+h3 {
+    color: #03212b;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+h4 {
+    color: #416674;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+p {
+width: 70%;
+font-size: 20px;
+}
+img {
+    margin-top: 40px;
+}
+footer {
+   text-align: center;
+   background-color: #0a6280;
+   bottom: 0;
+   padding: 20px;
+   width: 100%;
+   color: #fff;
+}
+
+element.style {
+}
+
+ul {
+    display: block;
+    display-style-type:disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: block;
+    color: #000;
+}
+.streamingservice {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+.candyshop {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+}
